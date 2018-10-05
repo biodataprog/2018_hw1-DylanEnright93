@@ -13,11 +13,7 @@
 ➤ cut -f3 Ecoli-vs-Yersinia.BLASTP.tab |grep 100
 ➤ awk '$3 > 90' Ecoli-vs-Yersinia.BLASTP.tab
 ➤ awk '$3 > 90' Ecoli-vs-Yersinia.BLASTP.tab |wc -l
-180
 ➤curl -O  https://biodataprog.github.io/2018_programming-intro/data/codon_table.txt
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100   938  100   938    0     0  17698      0 --:--:-- --:--:-- --:--:-- 17698
 $ cat -n codon_table.txt |sort $2| uniq
      1  ATT     I       Isoleucine
      2  ATC     I       Isoleucine
